@@ -2002,7 +2002,7 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = 1410801442;
+        const char* pszTimestamp = "HELLO THERE";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
